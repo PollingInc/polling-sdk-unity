@@ -1,5 +1,9 @@
 # Polling.com Unity SDK Wrapper
 
+> [!WARNING]  
+> This SDK is currently available only for Android usage (iOS is still being planned).
+> You also can't test it directly in Unity Editor as it is native Android. In order to test it, you have to build your project and run it into a mobile device.
+
 ## Introduction
 
 Polling.com Unity SDK Wrapper is a C# wrapper for the [Poling.com Java SDK](https://github.com/PollingInc/polling-sdk)
