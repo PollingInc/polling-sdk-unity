@@ -3,7 +3,7 @@
 > [!WARNING]  
 > This SDK is currently available only for Android usage (iOS is still being planned).
 
-[!WARNING] 
+> [!WARNING] 
 > You can't test it directly in Unity Editor as it is native Android. In order to test it, you have to build your project and run it into a mobile device.
 
 ## Introduction
