@@ -68,6 +68,9 @@ CallbackHandler callbackHandler = new CallbackHandler(this.gameObject, OnSuccess
         Debug.Log("REWARD (Unity): " + "JSON - " + response);
 
         Reward reward = Reward.Deserialize(response);
+
+        //fields available in Reward class are reward_name and reward_amount. Optionally, it can return complete_extra_json as a raw json string as setup on survey.
+
         HandleReward(reward);
     }
 
