@@ -9,6 +9,7 @@ namespace Polling
     {
         public string reward_amount;
         public string reward_name;
+        public string complete_extra_json;
 
         public static Reward Deserialize(string jsonArray)
         {
