@@ -74,6 +74,11 @@ public class PollingHandler : MonoBehaviour
         {
             Debug.Log($"(Unity) Reward converted: {reward.reward_name} | {amount}");
         }
+
+        if(reward.complete_extra_json != null)
+        {
+            Debug.Log($"(Unity) Reward extra json: {reward.complete_extra_json}");
+        }
         
     }
 
