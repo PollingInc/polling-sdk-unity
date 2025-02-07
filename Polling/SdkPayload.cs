@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Polling { 
+namespace Polling {
 
     public class SdkPayload
     {
@@ -22,13 +22,12 @@ namespace Polling {
         }
 
 #elif UNITY_IOS
-
         public SdkPayload(RequestIdentification requestIdentification, CallbackHandler callbackHandler, bool disableAvailableSurveysPoll)
         {
-            //TO BE IMPLEMENTED
+	    this.requestIdentification = requestIdentification;
+            this.callbackHandler = callbackHandler;
+            this.disableAvailableSurveysPoll = disableAvailableSurveysPoll;
         }
-
-
 #endif
     }
 

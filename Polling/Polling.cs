@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Reflection;
 using UnityEngine;
 
-namespace Polling 
+namespace Polling
 {
 
     public enum ViewType
@@ -40,7 +41,7 @@ namespace Polling
             polling.Call("setApiKey", apiKey);
         }
 
-        public void SetViewType(ViewType viewType) 
+        public void SetViewType(ViewType viewType)
         {
             polling.Call("setViewType", viewType.ToString());
         }
@@ -58,7 +59,7 @@ namespace Polling
             polling.Call("logSession");
         }
 
-        
+
         public void LogEvent(string eventName, string eventValue)
         {
             polling.Call("logEvent", eventName, eventValue);
@@ -88,52 +89,65 @@ namespace Polling
 #elif UNITY_IOS
         public void Initialize(SdkPayload sdkPayload)
         {
-            //TO BE IMPLEMENTED
+            RequestIdentification req = sdkPayload.requestIdentification;
+            CallbackHandler cbs = sdkPayload.callbackHandler;
+            bool disableAvailableSurveysPoll = sdkPayload.disableAvailableSurveysPoll;
+
+            string targetGameObjectName = cbs.gameObject.name;
+            string onSuccessName = cbs.onSuccess.Method.Name;
+            string onFailureName = cbs.onFailure.Method.Name;
+            string onRewardName = cbs.onReward.Method.Name;
+            string onSurveyAvailableName = cbs.onSurveyAvailable.Method.Name;
+            ObjCBridge.POLUnityPluginConfigureCallbacks(
+                targetGameObjectName, onSuccessName, onFailureName,
+                onRewardName, onSurveyAvailableName);
+            ObjCBridge.POLUnityPluginInitialize(req._CustomerID, req._APIKey);
+            // TODO: availability check
         }
 
         public void LogEvent(string eventName, string eventValue)
         {
-            //TO BE IMPLEMENTED
+            ObjCBridge.POLUnityPluginLogEvent(eventName, eventValue);
         }
 
         public void LogEvent(string eventName, int eventValue)
         {
-            //TO BE IMPLEMENTED
+            ObjCBridge.POLUnityPluginLogEvent(eventName, eventValue.ToString());
         }
 
         public void LogPurchase(int integerCents)
         {
-            //TO BE IMPLEMENTED
+            ObjCBridge.POLUnityPluginLogPurchase(integerCents);
         }
 
         public void LogSession()
         {
-            //TO BE IMPLEMENTED
+            ObjCBridge.POLUnityPluginLogSession();
         }
 
         public void SetApiKey(string apiKey)
         {
-            //TO BE IMPLEMENTED
+            ObjCBridge.POLUnityPluginSetApiKey(apiKey);
         }
 
         public void SetCustomerId(string customerId)
         {
-            //TO BE IMPLEMENTED
+            ObjCBridge.POLUnityPluginSetCustomerId(customerId);
         }
 
         public void SetViewType(ViewType viewType)
         {
-            //TO BE IMPLEMENTED
+            ObjCBridge.POLUnityPluginSetViewType((int)viewType);
         }
 
         public void ShowEmbedView()
         {
-            //TO BE IMPLEMENTED
+            ObjCBridge.POLUnityPluginShowEmbedView();
         }
 
         public void ShowSurvey(string surveyUuid)
         {
-            
+            ObjCBridge.POLUnityPluginShowSurvey(surveyUuid);
         }
 #endif
     }

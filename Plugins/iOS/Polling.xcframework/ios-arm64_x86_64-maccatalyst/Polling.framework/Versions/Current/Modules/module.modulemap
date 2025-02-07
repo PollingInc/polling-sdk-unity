@@ -1,0 +1,6 @@
+framework module Polling {
+  umbrella header "Polling.h"
+  export *
+
+  module * { export * }
+}

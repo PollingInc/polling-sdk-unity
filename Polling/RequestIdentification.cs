@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Polling { 
+namespace Polling {
 
     public class RequestIdentification
     {
@@ -22,13 +22,14 @@ namespace Polling {
            requestIdentification = javaObj;
         }
 #elif UNITY_IOS
+        public string _CustomerID;
+        public string _APIKey;
         public RequestIdentification(string customerId, string apiKey)
         {
-            //TO BE IMPLEMENTED
+            this.customerId = _CustomerID = customerId;
+            this.apiKey = _APIKey = apiKey;
         }
 #endif
-
-
     }
 
 }

@@ -27,9 +27,13 @@ namespace Polling
                 onReward.Method.Name, onSurveyAvailable.Method.Name);
         }
 #elif UNITY_IOS
-        public CallbackHandler(GameObject target, Action<string> onSuccess, Action<string> onFailure, Action<string> onReward, Action onSurveyAvailable) 
+        public CallbackHandler(GameObject target, Action<string> onSuccess, Action<string> onFailure, Action<string> onReward, Action onSurveyAvailable)
         {
-            //TO BE IMPLEMENTED
+            this.gameObject = target;
+            this.onSuccess = onSuccess;
+            this.onFailure = onFailure;
+            this.onReward = onReward;
+            this.onSurveyAvailable = onSurveyAvailable;
         }
 #endif
 

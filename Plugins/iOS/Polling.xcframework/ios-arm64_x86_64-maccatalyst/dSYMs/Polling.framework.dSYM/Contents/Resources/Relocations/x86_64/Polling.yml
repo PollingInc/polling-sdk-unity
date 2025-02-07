@@ -1,0 +1,324 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/eddie/Library/Developer/Xcode/DerivedData/PollingSDK-eeapojtkkhupujfazjlesquninml/Build/Intermediates.noindex/ArchiveIntermediates/Polling/IntermediateBuildFilesPath/UninstalledProducts/macosx/Polling.framework/Versions/A/Polling'
+relocations:
+  - { offset: 0xDCF75, size: 0x8, addend: 0x0, symName: _PollingVersionString, symObjAddr: 0x0, symBinAddr: 0x10750, symSize: 0x0 }
+  - { offset: 0xDCFAA, size: 0x8, addend: 0x0, symName: _PollingVersionNumber, symObjAddr: 0x28, symBinAddr: 0x10778, symSize: 0x0 }
+  - { offset: 0xDCFE7, size: 0x8, addend: 0x0, symName: '+[POLError errorWithCode:userInfo:]', symObjAddr: 0x0, symBinAddr: 0xDAD, symSize: 0x1F }
+  - { offset: 0xDD001, size: 0x8, addend: 0x0, symName: _POLPollingErrorDomain, symObjAddr: 0x5D0, symBinAddr: 0x16080, symSize: 0x0 }
+  - { offset: 0xDD021, size: 0x8, addend: 0x0, symName: _POLErrorFileKey, symObjAddr: 0x5D8, symBinAddr: 0x16088, symSize: 0x0 }
+  - { offset: 0xDD037, size: 0x8, addend: 0x0, symName: _POLErrorMethodKey, symObjAddr: 0x5E0, symBinAddr: 0x16090, symSize: 0x0 }
+  - { offset: 0xDD04D, size: 0x8, addend: 0x0, symName: _POLErrorLineNumberKey, symObjAddr: 0x5E8, symBinAddr: 0x16098, symSize: 0x0 }
+  - { offset: 0xDD088, size: 0x8, addend: 0x0, symName: '+[POLError errorWithCode:userInfo:]', symObjAddr: 0x0, symBinAddr: 0xDAD, symSize: 0x1F }
+  - { offset: 0xDD102, size: 0x8, addend: 0x0, symName: '+[POLError errorWithCode:underlyingError:userInfo:]', symObjAddr: 0x1F, symBinAddr: 0xDCC, symSize: 0x7E }
+  - { offset: 0xDD1C2, size: 0x8, addend: 0x0, symName: '-[POLError underlyingErrors]', symObjAddr: 0x9D, symBinAddr: 0xE4A, symSize: 0xAA }
+  - { offset: 0xDD245, size: 0x8, addend: 0x0, symName: '-[POLError subsystem]', symObjAddr: 0x147, symBinAddr: 0xEF4, symSize: 0xB4 }
+  - { offset: 0xDD2A1, size: 0x8, addend: 0x0, symName: '-[POLError category]', symObjAddr: 0x1FB, symBinAddr: 0xFA8, symSize: 0x87 }
+  - { offset: 0xDD2FD, size: 0x8, addend: 0x0, symName: '-[POLError underlyingError]', symObjAddr: 0x282, symBinAddr: 0x102F, symSize: 0x16 }
+  - { offset: 0xDD334, size: 0x8, addend: 0x0, symName: '-[POLError setUnderlyingError:]', symObjAddr: 0x298, symBinAddr: 0x1045, symSize: 0x11 }
+  - { offset: 0xDD373, size: 0x8, addend: 0x0, symName: '-[POLError .cxx_destruct]', symObjAddr: 0x2A9, symBinAddr: 0x1056, symSize: 0x13 }
+  - { offset: 0xDD442, size: 0x8, addend: 0x0, symName: '-[POLReward initWithDictionary:]', symObjAddr: 0x0, symBinAddr: 0x1069, symSize: 0xF6 }
+  - { offset: 0xDD4B7, size: 0x8, addend: 0x0, symName: '-[POLReward initWithDictionary:]', symObjAddr: 0x0, symBinAddr: 0x1069, symSize: 0xF6 }
+  - { offset: 0xDD597, size: 0x8, addend: 0x0, symName: '-[POLReward initWithJSONDictionary:]', symObjAddr: 0xF6, symBinAddr: 0x115F, symSize: 0xF6 }
+  - { offset: 0xDD677, size: 0x8, addend: 0x0, symName: '+[POLReward rewardFromDictionary:]', symObjAddr: 0x1EC, symBinAddr: 0x1255, symSize: 0x51 }
+  - { offset: 0xDD6FB, size: 0x8, addend: 0x0, symName: '+[POLReward rewardFromJSONDictionary:]', symObjAddr: 0x23D, symBinAddr: 0x12A6, symSize: 0x51 }
+  - { offset: 0xDD77F, size: 0x8, addend: 0x0, symName: '-[POLReward dictionaryRepresentation]', symObjAddr: 0x28E, symBinAddr: 0x12F7, symSize: 0x10B }
+  - { offset: 0xDD825, size: 0x8, addend: 0x0, symName: '-[POLReward JSONRepresentation]', symObjAddr: 0x399, symBinAddr: 0x1402, symSize: 0x136 }
+  - { offset: 0xDD916, size: 0x8, addend: 0x0, symName: '-[POLReward description]', symObjAddr: 0x4CF, symBinAddr: 0x1538, symSize: 0xCC }
+  - { offset: 0xDD9E1, size: 0x8, addend: 0x0, symName: '-[POLReward name]', symObjAddr: 0x59B, symBinAddr: 0x1604, symSize: 0x14 }
+  - { offset: 0xDDA18, size: 0x8, addend: 0x0, symName: '-[POLReward amount]', symObjAddr: 0x5AF, symBinAddr: 0x1618, symSize: 0x14 }
+  - { offset: 0xDDA4F, size: 0x8, addend: 0x0, symName: '-[POLReward completeExtraJSON]', symObjAddr: 0x5C3, symBinAddr: 0x162C, symSize: 0x14 }
+  - { offset: 0xDDA86, size: 0x8, addend: 0x0, symName: '-[POLReward .cxx_destruct]', symObjAddr: 0x5D7, symBinAddr: 0x1640, symSize: 0x33 }
+  - { offset: 0xDDB8A, size: 0x8, addend: 0x0, symName: '-[POLSurvey initWithDictionary:]', symObjAddr: 0x0, symBinAddr: 0x1673, symSize: 0x1A8 }
+  - { offset: 0xDDBA4, size: 0x8, addend: 0x0, symName: _POLSurveyViewEndpoint, symObjAddr: 0x1678, symBinAddr: 0x160A0, symSize: 0x0 }
+  - { offset: 0xDDBC4, size: 0x8, addend: 0x0, symName: _POLSurveyDefaultEmbedViewEndpoint, symObjAddr: 0x1680, symBinAddr: 0x160A8, symSize: 0x0 }
+  - { offset: 0xDDBDA, size: 0x8, addend: 0x0, symName: _POLSurveyStatusAvailable, symObjAddr: 0x1688, symBinAddr: 0x160B0, symSize: 0x0 }
+  - { offset: 0xDDBF0, size: 0x8, addend: 0x0, symName: _POLSurveyStatusStarted, symObjAddr: 0x1690, symBinAddr: 0x160B8, symSize: 0x0 }
+  - { offset: 0xDDC06, size: 0x8, addend: 0x0, symName: _POLSurveyStatusCompleted, symObjAddr: 0x1698, symBinAddr: 0x160C0, symSize: 0x0 }
+  - { offset: 0xDDDA4, size: 0x8, addend: 0x0, symName: '-[POLSurvey initWithDictionary:]', symObjAddr: 0x0, symBinAddr: 0x1673, symSize: 0x1A8 }
+  - { offset: 0xDDF10, size: 0x8, addend: 0x0, symName: '-[POLSurvey initWithJSONDictionary:]', symObjAddr: 0x1A8, symBinAddr: 0x181B, symSize: 0x1E3 }
+  - { offset: 0xDE09C, size: 0x8, addend: 0x0, symName: '+[POLSurvey surveyFromJSONDictionary:]', symObjAddr: 0x38B, symBinAddr: 0x19FE, symSize: 0x49 }
+  - { offset: 0xDE120, size: 0x8, addend: 0x0, symName: '+[POLSurvey surveyFromDictionary:]', symObjAddr: 0x3D4, symBinAddr: 0x1A47, symSize: 0x49 }
+  - { offset: 0xDE1A4, size: 0x8, addend: 0x0, symName: '+[POLSurvey surveyWithUUID:]', symObjAddr: 0x41D, symBinAddr: 0x1A90, symSize: 0xCF }
+  - { offset: 0xDE240, size: 0x8, addend: 0x0, symName: '-[POLSurvey surveyViewURL]', symObjAddr: 0x4EC, symBinAddr: 0x1B5F, symSize: 0x159 }
+  - { offset: 0xDE377, size: 0x8, addend: 0x0, symName: '-[POLSurvey embedViewURL]', symObjAddr: 0x645, symBinAddr: 0x1CB8, symSize: 0x18D }
+  - { offset: 0xDE4C2, size: 0x8, addend: 0x0, symName: '-[POLSurvey URL]', symObjAddr: 0x7D2, symBinAddr: 0x1E45, symSize: 0x4C }
+  - { offset: 0xDE51A, size: 0x8, addend: 0x0, symName: '-[POLSurvey surveyCompletionURL]', symObjAddr: 0x81E, symBinAddr: 0x1E91, symSize: 0x15C }
+  - { offset: 0xDE651, size: 0x8, addend: 0x0, symName: '-[POLSurvey embedCompletionURL]', symObjAddr: 0x97A, symBinAddr: 0x1FED, symSize: 0x15C }
+  - { offset: 0xDE784, size: 0x8, addend: 0x0, symName: '-[POLSurvey completionURL]', symObjAddr: 0xAD6, symBinAddr: 0x2149, symSize: 0x4C }
+  - { offset: 0xDE7DC, size: 0x8, addend: 0x0, symName: '-[POLSurvey isAvailable]', symObjAddr: 0xB22, symBinAddr: 0x2195, symSize: 0x1D }
+  - { offset: 0xDE81F, size: 0x8, addend: 0x0, symName: '-[POLSurvey isStarted]', symObjAddr: 0xB3F, symBinAddr: 0x21B2, symSize: 0x1D }
+  - { offset: 0xDE862, size: 0x8, addend: 0x0, symName: '-[POLSurvey isCompleted]', symObjAddr: 0xB5C, symBinAddr: 0x21CF, symSize: 0x1D }
+  - { offset: 0xDE8A5, size: 0x8, addend: 0x0, symName: '-[POLSurvey isEqual:]', symObjAddr: 0xB79, symBinAddr: 0x21EC, symSize: 0x64 }
+  - { offset: 0xDE930, size: 0x8, addend: 0x0, symName: '-[POLSurvey isEqualToSurvey:]', symObjAddr: 0xBDD, symBinAddr: 0x2250, symSize: 0x92 }
+  - { offset: 0xDE9FB, size: 0x8, addend: 0x0, symName: '-[POLSurvey dictionaryRepresentation]', symObjAddr: 0xC6F, symBinAddr: 0x22E2, symSize: 0x142 }
+  - { offset: 0xDEABE, size: 0x8, addend: 0x0, symName: '-[POLSurvey JSONRepresentation]', symObjAddr: 0xDB1, symBinAddr: 0x2424, symSize: 0x31A }
+  - { offset: 0xDECD8, size: 0x8, addend: 0x0, symName: '-[POLSurvey description]', symObjAddr: 0x10CB, symBinAddr: 0x273E, symSize: 0xF2 }
+  - { offset: 0xDEDC5, size: 0x8, addend: 0x0, symName: '-[POLSurvey UUID]', symObjAddr: 0x11BD, symBinAddr: 0x2830, symSize: 0x14 }
+  - { offset: 0xDEDFC, size: 0x8, addend: 0x0, symName: '-[POLSurvey setUUID:]', symObjAddr: 0x11D1, symBinAddr: 0x2844, symSize: 0xF }
+  - { offset: 0xDEE3B, size: 0x8, addend: 0x0, symName: '-[POLSurvey name]', symObjAddr: 0x11E0, symBinAddr: 0x2853, symSize: 0x14 }
+  - { offset: 0xDEE72, size: 0x8, addend: 0x0, symName: '-[POLSurvey setName:]', symObjAddr: 0x11F4, symBinAddr: 0x2867, symSize: 0xF }
+  - { offset: 0xDEEB1, size: 0x8, addend: 0x0, symName: '-[POLSurvey reward]', symObjAddr: 0x1203, symBinAddr: 0x2876, symSize: 0x14 }
+  - { offset: 0xDEEE8, size: 0x8, addend: 0x0, symName: '-[POLSurvey setReward:]', symObjAddr: 0x1217, symBinAddr: 0x288A, symSize: 0xF }
+  - { offset: 0xDEF27, size: 0x8, addend: 0x0, symName: '-[POLSurvey questionCount]', symObjAddr: 0x1226, symBinAddr: 0x2899, symSize: 0xA }
+  - { offset: 0xDEF5C, size: 0x8, addend: 0x0, symName: '-[POLSurvey setQuestionCount:]', symObjAddr: 0x1230, symBinAddr: 0x28A3, symSize: 0xA }
+  - { offset: 0xDEF99, size: 0x8, addend: 0x0, symName: '-[POLSurvey userSurveyStatus]', symObjAddr: 0x123A, symBinAddr: 0x28AD, symSize: 0x14 }
+  - { offset: 0xDEFD0, size: 0x8, addend: 0x0, symName: '-[POLSurvey completedAt]', symObjAddr: 0x124E, symBinAddr: 0x28C1, symSize: 0x14 }
+  - { offset: 0xDF007, size: 0x8, addend: 0x0, symName: '-[POLSurvey completedDate]', symObjAddr: 0x1262, symBinAddr: 0x28D5, symSize: 0x14 }
+  - { offset: 0xDF03E, size: 0x8, addend: 0x0, symName: '-[POLSurvey embedViewRequested]', symObjAddr: 0x1276, symBinAddr: 0x28E9, symSize: 0xA }
+  - { offset: 0xDF073, size: 0x8, addend: 0x0, symName: '-[POLSurvey setEmbedViewRequested:]', symObjAddr: 0x1280, symBinAddr: 0x28F3, symSize: 0x9 }
+  - { offset: 0xDF0B0, size: 0x8, addend: 0x0, symName: '-[POLSurvey .cxx_destruct]', symObjAddr: 0x1289, symBinAddr: 0x28FC, symSize: 0x54 }
+  - { offset: 0xDF188, size: 0x8, addend: 0x0, symName: '+[POLSurveyDialogAnimateInController animateInWithViewController:]', symObjAddr: 0x0, symBinAddr: 0x2950, symSize: 0x12 }
+  - { offset: 0xDF1CD, size: 0x8, addend: 0x0, symName: '+[POLSurveyDialogAnimateInController animateInWithViewController:]', symObjAddr: 0x0, symBinAddr: 0x2950, symSize: 0x12 }
+  - { offset: 0xDF210, size: 0x8, addend: 0x0, symName: '-[POLSurveyDialogAnimateInController animateTransition:]', symObjAddr: 0x12, symBinAddr: 0x2962, symSize: 0x2DA }
+  - { offset: 0xDF4F5, size: 0x8, addend: 0x0, symName: '___56-[POLSurveyDialogAnimateInController animateTransition:]_block_invoke', symObjAddr: 0x2EC, symBinAddr: 0x2C3C, symSize: 0x1BF }
+  - { offset: 0xDF611, size: 0x8, addend: 0x0, symName: '___56-[POLSurveyDialogAnimateInController animateTransition:]_block_invoke_2', symObjAddr: 0x4AB, symBinAddr: 0x2DFB, symSize: 0x57 }
+  - { offset: 0xDF684, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x502, symBinAddr: 0x2E52, symSize: 0x25 }
+  - { offset: 0xDF6C5, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x527, symBinAddr: 0x2E77, symSize: 0x25 }
+  - { offset: 0xDF6FC, size: 0x8, addend: 0x0, symName: '___56-[POLSurveyDialogAnimateInController animateTransition:]_block_invoke.16', symObjAddr: 0x54C, symBinAddr: 0x2E9C, symSize: 0x1E }
+  - { offset: 0xDF743, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x56A, symBinAddr: 0x2EBA, symSize: 0xF }
+  - { offset: 0xDF776, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x579, symBinAddr: 0x2EC9, symSize: 0xF }
+  - { offset: 0xDF7A1, size: 0x8, addend: 0x0, symName: '___56-[POLSurveyDialogAnimateInController animateTransition:]_block_invoke.17', symObjAddr: 0x588, symBinAddr: 0x2ED8, symSize: 0x3C }
+  - { offset: 0xDF7F8, size: 0x8, addend: 0x0, symName: '___56-[POLSurveyDialogAnimateInController animateTransition:]_block_invoke.18', symObjAddr: 0x5C4, symBinAddr: 0x2F14, symSize: 0x1B }
+  - { offset: 0xDF852, size: 0x8, addend: 0x0, symName: '-[POLSurveyDialogAnimateInController transitionDuration:]', symObjAddr: 0x5DF, symBinAddr: 0x2F2F, symSize: 0xE }
+  - { offset: 0xDFC86, size: 0x8, addend: 0x0, symName: '-[POLTriggeredSurveyController init]', symObjAddr: 0x0, symBinAddr: 0x2F3D, symSize: 0x97 }
+  - { offset: 0xDFC94, size: 0x8, addend: 0x0, symName: '-[POLTriggeredSurveyController checkForAvailableTriggeredSurveys]', symObjAddr: 0x97, symBinAddr: 0x2FD4, symSize: 0x79B }
+  - { offset: 0xE0789, size: 0x8, addend: 0x0, symName: '-[POLTriggeredSurveyController scheduleTriggerSurvey:withDelay:]', symObjAddr: 0x832, symBinAddr: 0x376F, symSize: 0x25E }
+  - { offset: 0xE0B17, size: 0x8, addend: 0x0, symName: '-[POLTriggeredSurveyController triggerSurvey:]', symObjAddr: 0xA90, symBinAddr: 0x39CD, symSize: 0x22D }
+  - { offset: 0xE0DF8, size: 0x8, addend: 0x0, symName: '-[POLTriggeredSurveyController triggeredSurvey:didLoadSurvey:]', symObjAddr: 0xCBD, symBinAddr: 0x3BFA, symSize: 0x29A }
+  - { offset: 0xE1221, size: 0x8, addend: 0x0, symName: '-[POLTriggeredSurveyController triggeredSurveyUnavailable:]', symObjAddr: 0xF69, symBinAddr: 0x3EA6, symSize: 0x149 }
+  - { offset: 0xE14F0, size: 0x8, addend: 0x0, symName: '-[POLTriggeredSurveyController removeSurvey:]', symObjAddr: 0x10B2, symBinAddr: 0x3FEF, symSize: 0x1A5 }
+  - { offset: 0xE176E, size: 0x8, addend: 0x0, symName: '-[POLTriggeredSurveyController triggeredSurveysDidUpdate:]', symObjAddr: 0x12C4, symBinAddr: 0x4201, symSize: 0x22E }
+  - { offset: 0xE1A84, size: 0x8, addend: 0x0, symName: '-[POLTriggeredSurveyController postponeSurvey:]', symObjAddr: 0x14F2, symBinAddr: 0x442F, symSize: 0x218 }
+  - { offset: 0xE1E0D, size: 0x8, addend: 0x0, symName: '-[POLTriggeredSurveyController init]', symObjAddr: 0x0, symBinAddr: 0x2F3D, symSize: 0x97 }
+  - { offset: 0xE1F5A, size: 0x8, addend: 0x0, symName: '-[POLTriggeredSurveyController triggeredSurveyFailedToLoadSurvey:]', symObjAddr: 0xF57, symBinAddr: 0x3E94, symSize: 0x12 }
+  - { offset: 0xE1FB6, size: 0x8, addend: 0x0, symName: '-[POLTriggeredSurveyController removeTriggeredSurvey:]', symObjAddr: 0x1257, symBinAddr: 0x4194, symSize: 0x6D }
+  - { offset: 0xE204A, size: 0x8, addend: 0x0, symName: '-[POLTriggeredSurveyController .cxx_destruct]', symObjAddr: 0x170A, symBinAddr: 0x4647, symSize: 0x28 }
+  - { offset: 0xE229A, size: 0x8, addend: 0x0, symName: '-[POLCompatibleSurveyViewController initWithSurvey:viewType:]', symObjAddr: 0x0, symBinAddr: 0x466F, symSize: 0xD6 }
+  - { offset: 0xE22A8, size: 0x8, addend: 0x0, symName: '-[POLCompatibleSurveyViewController gestureRecognizer:shouldReceiveTouch:]', symObjAddr: 0x6A5, symBinAddr: 0x4D14, symSize: 0x155 }
+  - { offset: 0xE27CE, size: 0x8, addend: 0x0, symName: '-[POLCompatibleSurveyViewController initWithSurvey:viewType:]', symObjAddr: 0x0, symBinAddr: 0x466F, symSize: 0xD6 }
+  - { offset: 0xE28D1, size: 0x8, addend: 0x0, symName: '-[POLCompatibleSurveyViewController viewDidLoad]', symObjAddr: 0xD6, symBinAddr: 0x4745, symSize: 0x5CF }
+  - { offset: 0xE2E01, size: 0x8, addend: 0x0, symName: '-[POLCompatibleSurveyViewController tap:]', symObjAddr: 0x7FA, symBinAddr: 0x4E69, symSize: 0x51 }
+  - { offset: 0xE2E62, size: 0x8, addend: 0x0, symName: '___41-[POLCompatibleSurveyViewController tap:]_block_invoke', symObjAddr: 0x84B, symBinAddr: 0x4EBA, symSize: 0x51 }
+  - { offset: 0xE2EC5, size: 0x8, addend: 0x0, symName: '-[POLCompatibleSurveyViewController viewType]', symObjAddr: 0x8BA, symBinAddr: 0x4F0B, symSize: 0x11 }
+  - { offset: 0xE2EFA, size: 0x8, addend: 0x0, symName: '-[POLCompatibleSurveyViewController setViewType:]', symObjAddr: 0x8CB, symBinAddr: 0x4F1C, symSize: 0x11 }
+  - { offset: 0xE2F37, size: 0x8, addend: 0x0, symName: '-[POLCompatibleSurveyViewController backgroundView]', symObjAddr: 0x8DC, symBinAddr: 0x4F2D, symSize: 0x11 }
+  - { offset: 0xE2F6C, size: 0x8, addend: 0x0, symName: '-[POLCompatibleSurveyViewController setBackgroundView:]', symObjAddr: 0x8ED, symBinAddr: 0x4F3E, symSize: 0x14 }
+  - { offset: 0xE2FAD, size: 0x8, addend: 0x0, symName: '-[POLCompatibleSurveyViewController containerView]', symObjAddr: 0x901, symBinAddr: 0x4F52, symSize: 0x19 }
+  - { offset: 0xE2FE4, size: 0x8, addend: 0x0, symName: '-[POLCompatibleSurveyViewController setContainerView:]', symObjAddr: 0x91A, symBinAddr: 0x4F6B, symSize: 0x14 }
+  - { offset: 0xE3025, size: 0x8, addend: 0x0, symName: '-[POLCompatibleSurveyViewController .cxx_destruct]', symObjAddr: 0x92E, symBinAddr: 0x4F7F, symSize: 0x2F }
+  - { offset: 0xE3195, size: 0x8, addend: 0x0, symName: '-[POLSurveyBottomAnimateInController animateTransition:]', symObjAddr: 0x0, symBinAddr: 0x4FAE, symSize: 0x31B }
+  - { offset: 0xE31DA, size: 0x8, addend: 0x0, symName: '-[POLSurveyBottomAnimateInController animateTransition:]', symObjAddr: 0x0, symBinAddr: 0x4FAE, symSize: 0x31B }
+  - { offset: 0xE34BD, size: 0x8, addend: 0x0, symName: '___56-[POLSurveyBottomAnimateInController animateTransition:]_block_invoke', symObjAddr: 0x31B, symBinAddr: 0x52C9, symSize: 0x1BF }
+  - { offset: 0xE35D9, size: 0x8, addend: 0x0, symName: '___56-[POLSurveyBottomAnimateInController animateTransition:]_block_invoke_2', symObjAddr: 0x4DA, symBinAddr: 0x5488, symSize: 0x57 }
+  - { offset: 0xE364C, size: 0x8, addend: 0x0, symName: '___56-[POLSurveyBottomAnimateInController animateTransition:]_block_invoke.18', symObjAddr: 0x57B, symBinAddr: 0x54DF, symSize: 0x1E }
+  - { offset: 0xE3693, size: 0x8, addend: 0x0, symName: '___56-[POLSurveyBottomAnimateInController animateTransition:]_block_invoke.19', symObjAddr: 0x5B7, symBinAddr: 0x54FD, symSize: 0x3C }
+  - { offset: 0xE36EA, size: 0x8, addend: 0x0, symName: '___56-[POLSurveyBottomAnimateInController animateTransition:]_block_invoke.20', symObjAddr: 0x5F3, symBinAddr: 0x5539, symSize: 0x1B }
+  - { offset: 0xE3744, size: 0x8, addend: 0x0, symName: '-[POLSurveyBottomAnimateInController transitionDuration:]', symObjAddr: 0x60E, symBinAddr: 0x5554, symSize: 0xE }
+  - { offset: 0xE3B61, size: 0x8, addend: 0x0, symName: '-[NSDictionary(POLDictionaryAdditions) pol_stringValueForKey:undefinedValue:]', symObjAddr: 0x0, symBinAddr: 0x5562, symSize: 0x74 }
+  - { offset: 0xE3B6F, size: 0x8, addend: 0x0, symName: '-[NSDictionary(POLDictionaryAdditions) pol_stringValueForKey:undefinedValue:]', symObjAddr: 0x0, symBinAddr: 0x5562, symSize: 0x74 }
+  - { offset: 0xE3C2B, size: 0x8, addend: 0x0, symName: '-[NSDictionary(POLDictionaryAdditions) pol_dictionaryValueForKey:undefinedValue:]', symObjAddr: 0x74, symBinAddr: 0x55D6, symSize: 0x74 }
+  - { offset: 0xE3CE7, size: 0x8, addend: 0x0, symName: '-[NSDictionary(POLDictionaryAdditions) pol_dateValueForKey:undefinedValue:]', symObjAddr: 0xE8, symBinAddr: 0x564A, symSize: 0x74 }
+  - { offset: 0xE3DA3, size: 0x8, addend: 0x0, symName: '-[NSDictionary(POLDictionaryAdditions) copyAddingEntriesFromDictionary:]', symObjAddr: 0x15C, symBinAddr: 0x56BE, symSize: 0x59 }
+  - { offset: 0xE3EAC, size: 0x8, addend: 0x0, symName: '-[POLTriggeredSurvey initWithDictionary:]', symObjAddr: 0x0, symBinAddr: 0x5717, symSize: 0x36D }
+  - { offset: 0xE406B, size: 0x8, addend: 0x0, symName: '-[POLTriggeredSurvey initWithDictionary:]', symObjAddr: 0x0, symBinAddr: 0x5717, symSize: 0x36D }
+  - { offset: 0xE429C, size: 0x8, addend: 0x0, symName: '-[POLTriggeredSurvey initWithJSONDictionary:]', symObjAddr: 0x36D, symBinAddr: 0x5A84, symSize: 0x2FC }
+  - { offset: 0xE4481, size: 0x8, addend: 0x0, symName: '+[POLTriggeredSurvey triggeredSurveyFromJSONDictionary:]', symObjAddr: 0x669, symBinAddr: 0x5D80, symSize: 0x49 }
+  - { offset: 0xE4505, size: 0x8, addend: 0x0, symName: '+[POLTriggeredSurvey triggeredSurveyFromDictionary:]', symObjAddr: 0x6B2, symBinAddr: 0x5DC9, symSize: 0x49 }
+  - { offset: 0xE4589, size: 0x8, addend: 0x0, symName: '-[POLTriggeredSurvey delayedTimestamp]', symObjAddr: 0x6FB, symBinAddr: 0x5E12, symSize: 0x104 }
+  - { offset: 0xE468C, size: 0x8, addend: 0x0, symName: '-[POLTriggeredSurvey postpone]', symObjAddr: 0x7FF, symBinAddr: 0x5F16, symSize: 0x11E }
+  - { offset: 0xE474B, size: 0x8, addend: 0x0, symName: '-[POLTriggeredSurvey isEqual:]', symObjAddr: 0x91D, symBinAddr: 0x6034, symSize: 0x64 }
+  - { offset: 0xE47D6, size: 0x8, addend: 0x0, symName: '-[POLTriggeredSurvey isEqualToTriggeredSurvey:]', symObjAddr: 0x981, symBinAddr: 0x6098, symSize: 0xCB }
+  - { offset: 0xE48DC, size: 0x8, addend: 0x0, symName: '-[POLTriggeredSurvey dictionaryRepresentation]', symObjAddr: 0xA4C, symBinAddr: 0x6163, symSize: 0x19B }
+  - { offset: 0xE49F2, size: 0x8, addend: 0x0, symName: '-[POLTriggeredSurvey description]', symObjAddr: 0xBE7, symBinAddr: 0x62FE, symSize: 0x150 }
+  - { offset: 0xE4B27, size: 0x8, addend: 0x0, symName: '-[POLTriggeredSurvey survey]', symObjAddr: 0xD37, symBinAddr: 0x644E, symSize: 0x14 }
+  - { offset: 0xE4B5E, size: 0x8, addend: 0x0, symName: '-[POLTriggeredSurvey setSurvey:]', symObjAddr: 0xD4B, symBinAddr: 0x6462, symSize: 0xF }
+  - { offset: 0xE4B9D, size: 0x8, addend: 0x0, symName: '-[POLTriggeredSurvey delaySeconds]', symObjAddr: 0xD5A, symBinAddr: 0x6471, symSize: 0xA }
+  - { offset: 0xE4BD2, size: 0x8, addend: 0x0, symName: '-[POLTriggeredSurvey setDelaySeconds:]', symObjAddr: 0xD64, symBinAddr: 0x647B, symSize: 0xA }
+  - { offset: 0xE4C0F, size: 0x8, addend: 0x0, symName: '-[POLTriggeredSurvey delayedDate]', symObjAddr: 0xD6E, symBinAddr: 0x6485, symSize: 0x14 }
+  - { offset: 0xE4C46, size: 0x8, addend: 0x0, symName: '-[POLTriggeredSurvey isInUse]', symObjAddr: 0xD82, symBinAddr: 0x6499, symSize: 0xA }
+  - { offset: 0xE4C7B, size: 0x8, addend: 0x0, symName: '-[POLTriggeredSurvey setInUse:]', symObjAddr: 0xD8C, symBinAddr: 0x64A3, symSize: 0x9 }
+  - { offset: 0xE4CB8, size: 0x8, addend: 0x0, symName: '-[POLTriggeredSurvey .cxx_destruct]', symObjAddr: 0xD95, symBinAddr: 0x64AC, symSize: 0x28 }
+  - { offset: 0xE4D74, size: 0x8, addend: 0x0, symName: _POLSurveyDataTaskTypeDescription, symObjAddr: 0x0, symBinAddr: 0x64D4, symSize: 0x30 }
+  - { offset: 0xE4D8E, size: 0x8, addend: 0x0, symName: _POLNetworkSessionAvailableSurveyAPIEndpoint, symObjAddr: 0x6010, symBinAddr: 0x161C0, symSize: 0x0 }
+  - { offset: 0xE4DAE, size: 0x8, addend: 0x0, symName: _POLNetworkSessionSurveyAPIEndpoint, symObjAddr: 0x6018, symBinAddr: 0x161C8, symSize: 0x0 }
+  - { offset: 0xE4DC4, size: 0x8, addend: 0x0, symName: _POLNetworkSessionEventAPIEndpoint, symObjAddr: 0x6020, symBinAddr: 0x161D0, symSize: 0x0 }
+  - { offset: 0xE4DDA, size: 0x8, addend: 0x0, symName: _POLNetworkSessionUserQueryName, symObjAddr: 0x6028, symBinAddr: 0x161D8, symSize: 0x0 }
+  - { offset: 0xE4DF0, size: 0x8, addend: 0x0, symName: _POLNetworkSessionCustomerIDQueryName, symObjAddr: 0x6030, symBinAddr: 0x161E0, symSize: 0x0 }
+  - { offset: 0xE4E06, size: 0x8, addend: 0x0, symName: _POLNetworkSessionAPIKeyQueryName, symObjAddr: 0x6038, symBinAddr: 0x161E8, symSize: 0x0 }
+  - { offset: 0xE4E1C, size: 0x8, addend: 0x0, symName: _POLSurveyDataTaskTypeNoneDescription, symObjAddr: 0x6040, symBinAddr: 0x161F0, symSize: 0x0 }
+  - { offset: 0xE4E32, size: 0x8, addend: 0x0, symName: _POLSurveyDataTaskTypeGetSurveyDetailsDescription, symObjAddr: 0x6048, symBinAddr: 0x161F8, symSize: 0x0 }
+  - { offset: 0xE4E48, size: 0x8, addend: 0x0, symName: _POLSurveyDataTaskTypeStartSurveyDescription, symObjAddr: 0x6050, symBinAddr: 0x16200, symSize: 0x0 }
+  - { offset: 0xE4E5E, size: 0x8, addend: 0x0, symName: _POLSurveyDataTaskTypeCompleteSurveyDescription, symObjAddr: 0x6058, symBinAddr: 0x16208, symSize: 0x0 }
+  - { offset: 0xE4E74, size: 0x8, addend: 0x0, symName: _POLSurveyDataTaskTypeDescriptions, symObjAddr: 0x6060, symBinAddr: 0x16210, symSize: 0x0 }
+  - { offset: 0xE4E9D, size: 0x8, addend: 0x0, symName: '+[POLNetworkSession URLForEndpoint:withCustomerID:APIKey:]', symObjAddr: 0x166, symBinAddr: 0x663A, symSize: 0x50E }
+  - { offset: 0xE53CA, size: 0x8, addend: 0x0, symName: '-[POLNetworkSession beginDataTask:]', symObjAddr: 0x674, symBinAddr: 0x6B48, symSize: 0x13F }
+  - { offset: 0xE55AA, size: 0x8, addend: 0x0, symName: '-[POLNetworkSession dataForDataTask:]', symObjAddr: 0x7B3, symBinAddr: 0x6C87, symSize: 0xE6 }
+  - { offset: 0xE5742, size: 0x8, addend: 0x0, symName: '-[POLNetworkSession finishDataTask:]', symObjAddr: 0x899, symBinAddr: 0x6D6D, symSize: 0xFC }
+  - { offset: 0xE58E6, size: 0x8, addend: 0x0, symName: '-[POLNetworkSession topLevelDictionaryForData:error:]', symObjAddr: 0x995, symBinAddr: 0x6E69, symSize: 0x6CE }
+  - { offset: 0xE5E5F, size: 0x8, addend: 0x0, symName: '-[POLNetworkSession surveysForData:error:]', symObjAddr: 0x10C7, symBinAddr: 0x759B, symSize: 0x54B }
+  - { offset: 0xE62B0, size: 0x8, addend: 0x0, symName: '-[POLNetworkSession triggeredSurveysForDataTask:error:]', symObjAddr: 0x1676, symBinAddr: 0x7B4A, symSize: 0x54B }
+  - { offset: 0xE670C, size: 0x8, addend: 0x0, symName: '-[POLNetworkSession surveyForData:error:]', symObjAddr: 0x1BC1, symBinAddr: 0x8095, symSize: 0x413 }
+  - { offset: 0xE6AA0, size: 0x8, addend: 0x0, symName: '-[POLNetworkSession surveysFromData:error:]', symObjAddr: 0x2038, symBinAddr: 0x850C, symSize: 0x54B }
+  - { offset: 0xE6EFC, size: 0x8, addend: 0x0, symName: '___42-[POLNetworkSession fetchSurvey:taskType:]_block_invoke', symObjAddr: 0x2D52, symBinAddr: 0x9226, symSize: 0xA28 }
+  - { offset: 0xE78F2, size: 0x8, addend: 0x0, symName: '___42-[POLNetworkSession fetchSurvey:taskType:]_block_invoke.165', symObjAddr: 0x37D2, symBinAddr: 0x9CA6, symSize: 0xC1A }
+  - { offset: 0xE8423, size: 0x8, addend: 0x0, symName: '-[POLNetworkSession fetchSurvey:taskType:]', symObjAddr: 0x2725, symBinAddr: 0x8BF9, symSize: 0x62D }
+  - { offset: 0xE8988, size: 0x8, addend: 0x0, symName: '-[POLNetworkSession postEvent:withValue:]', symObjAddr: 0x4484, symBinAddr: 0xA958, symSize: 0x5F9 }
+  - { offset: 0xE8F2A, size: 0x8, addend: 0x0, symName: '-[POLNetworkSession invalidateAndCancel]', symObjAddr: 0x4A7D, symBinAddr: 0xAF51, symSize: 0xBC }
+  - { offset: 0xE908D, size: 0x8, addend: 0x0, symName: '-[POLNetworkSession URLSession:task:didCompleteWithError:]', symObjAddr: 0x4CDB, symBinAddr: 0xB1AF, symSize: 0x598 }
+  - { offset: 0xE956C, size: 0x8, addend: 0x0, symName: '-[POLNetworkSession URLSession:dataTask:didReceiveResponse:completionHandler:]', symObjAddr: 0x5273, symBinAddr: 0xB747, symSize: 0x62E }
+  - { offset: 0xE9D7B, size: 0x8, addend: 0x0, symName: _POLSurveyDataTaskTypeDescription, symObjAddr: 0x0, symBinAddr: 0x64D4, symSize: 0x30 }
+  - { offset: 0xE9DB2, size: 0x8, addend: 0x0, symName: '-[POLNetworkSession URLSessionConfiguration]', symObjAddr: 0x30, symBinAddr: 0x6504, symSize: 0x7A }
+  - { offset: 0xE9E33, size: 0x8, addend: 0x0, symName: '-[POLNetworkSession URLSession]', symObjAddr: 0xAA, symBinAddr: 0x657E, symSize: 0xBC }
+  - { offset: 0xE9FB6, size: 0x8, addend: 0x0, symName: '-[POLNetworkSession topLevelDictionaryForDataTask:error:]', symObjAddr: 0x1063, symBinAddr: 0x7537, symSize: 0x64 }
+  - { offset: 0xEA049, size: 0x8, addend: 0x0, symName: '-[POLNetworkSession surveysForDataTask:error:]', symObjAddr: 0x1612, symBinAddr: 0x7AE6, symSize: 0x64 }
+  - { offset: 0xEA0E0, size: 0x8, addend: 0x0, symName: '-[POLNetworkSession surveyForDataTask:error:]', symObjAddr: 0x1FD4, symBinAddr: 0x84A8, symSize: 0x64 }
+  - { offset: 0xEA177, size: 0x8, addend: 0x0, symName: '-[POLNetworkSession fetchAvailableSurveys]', symObjAddr: 0x2583, symBinAddr: 0x8A57, symSize: 0x1A2 }
+  - { offset: 0xEA355, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s, symObjAddr: 0x377A, symBinAddr: 0x9C4E, symSize: 0x2C }
+  - { offset: 0xEA3A2, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s, symObjAddr: 0x37A6, symBinAddr: 0x9C7A, symSize: 0x2C }
+  - { offset: 0xEA3E5, size: 0x8, addend: 0x0, symName: '-[POLNetworkSession fetchSurveyWithUUID:]', symObjAddr: 0x43EC, symBinAddr: 0xA8C0, symSize: 0x53 }
+  - { offset: 0xEA456, size: 0x8, addend: 0x0, symName: '-[POLNetworkSession fetchSurvey:]', symObjAddr: 0x443F, symBinAddr: 0xA913, symSize: 0x17 }
+  - { offset: 0xEA4BA, size: 0x8, addend: 0x0, symName: '-[POLNetworkSession startSurvey:]', symObjAddr: 0x4456, symBinAddr: 0xA92A, symSize: 0x17 }
+  - { offset: 0xEA51E, size: 0x8, addend: 0x0, symName: '-[POLNetworkSession completeSurvey:]', symObjAddr: 0x446D, symBinAddr: 0xA941, symSize: 0x17 }
+  - { offset: 0xEA5A7, size: 0x8, addend: 0x0, symName: '-[POLNetworkSession URLSession:didBecomeInvalidWithError:]', symObjAddr: 0x4B39, symBinAddr: 0xB00D, symSize: 0x1A2 }
+  - { offset: 0xEA707, size: 0x8, addend: 0x0, symName: '-[POLNetworkSession URLSession:dataTask:didReceiveData:]', symObjAddr: 0x58A1, symBinAddr: 0xBD75, symSize: 0x78 }
+  - { offset: 0xEA7D0, size: 0x8, addend: 0x0, symName: '-[POLNetworkSession delegate]', symObjAddr: 0x5919, symBinAddr: 0xBDED, symSize: 0x16 }
+  - { offset: 0xEA807, size: 0x8, addend: 0x0, symName: '-[POLNetworkSession setDelegate:]', symObjAddr: 0x592F, symBinAddr: 0xBE03, symSize: 0x11 }
+  - { offset: 0xEA848, size: 0x8, addend: 0x0, symName: '-[POLNetworkSession .cxx_destruct]', symObjAddr: 0x5940, symBinAddr: 0xBE14, symSize: 0x3C }
+  - { offset: 0xEACFE, size: 0x8, addend: 0x0, symName: _POLViewTypeDescription, symObjAddr: 0x0, symBinAddr: 0xBE50, symSize: 0x30 }
+  - { offset: 0xEAD18, size: 0x8, addend: 0x0, symName: _POLViewTypeNoneDescription, symObjAddr: 0x29B0, symBinAddr: 0x16260, symSize: 0x0 }
+  - { offset: 0xEAD38, size: 0x8, addend: 0x0, symName: _POLViewTypeDialogDescription, symObjAddr: 0x29B8, symBinAddr: 0x16268, symSize: 0x0 }
+  - { offset: 0xEAD4E, size: 0x8, addend: 0x0, symName: _POLViewTypeBottomDescription, symObjAddr: 0x29C0, symBinAddr: 0x16270, symSize: 0x0 }
+  - { offset: 0xEAD64, size: 0x8, addend: 0x0, symName: _POLViewTypeDescriptions, symObjAddr: 0x29D0, symBinAddr: 0x16280, symSize: 0x0 }
+  - { offset: 0xEAD81, size: 0x8, addend: 0x0, symName: _POLUncaughtExceptionHandler, symObjAddr: 0x30, symBinAddr: 0xBE80, symSize: 0x13A }
+  - { offset: 0xEAF61, size: 0x8, addend: 0x0, symName: '+[POLPolling polling]', symObjAddr: 0x3CD, symBinAddr: 0xC21D, symSize: 0x30 }
+  - { offset: 0xEAF8B, size: 0x8, addend: 0x0, symName: _polling.pol, symObjAddr: 0x10520, symBinAddr: 0x1E6D8, symSize: 0x0 }
+  - { offset: 0xEAFA1, size: 0x8, addend: 0x0, symName: _polling.onceToken, symObjAddr: 0x10528, symBinAddr: 0x1E6E0, symSize: 0x0 }
+  - { offset: 0xEB394, size: 0x8, addend: 0x0, symName: '-[POLPolling logEvent:value:]', symObjAddr: 0x43A, symBinAddr: 0xC28A, symSize: 0x3A0 }
+  - { offset: 0xEBA8E, size: 0x8, addend: 0x0, symName: '-[POLPolling logPurchase:]', symObjAddr: 0x803, symBinAddr: 0xC653, symSize: 0x3BB }
+  - { offset: 0xEC0B9, size: 0x8, addend: 0x0, symName: '-[POLPolling logSession]', symObjAddr: 0xBBE, symBinAddr: 0xCA0E, symSize: 0x36B }
+  - { offset: 0xEC6E0, size: 0x8, addend: 0x0, symName: '-[POLPolling showEmbedView]', symObjAddr: 0xF29, symBinAddr: 0xCD79, symSize: 0x35D }
+  - { offset: 0xECD07, size: 0x8, addend: 0x0, symName: '-[POLPolling showSurvey:]', symObjAddr: 0x1286, symBinAddr: 0xD0D6, symSize: 0x399 }
+  - { offset: 0xED39F, size: 0x8, addend: 0x0, symName: '-[POLPolling surveyViewControllerDidDismiss:withError:]', symObjAddr: 0x2452, symBinAddr: 0xE2A2, symSize: 0x1EE }
+  - { offset: 0xED61C, size: 0x8, addend: 0x0, symName: _POLPreviousUncaughtExceptionHandler, symObjAddr: 0x10518, symBinAddr: 0x1E6D0, symSize: 0x0 }
+  - { offset: 0xED63C, size: 0x8, addend: 0x0, symName: _POLSDKInitialized, symObjAddr: 0x10530, symBinAddr: 0x1E6E8, symSize: 0x0 }
+  - { offset: 0xED652, size: 0x8, addend: 0x0, symName: _POLSDKShutdown, symObjAddr: 0x10531, symBinAddr: 0x1E6E9, symSize: 0x0 }
+  - { offset: 0xED6A1, size: 0x8, addend: 0x0, symName: _POLViewTypeDescription, symObjAddr: 0x0, symBinAddr: 0xBE50, symSize: 0x30 }
+  - { offset: 0xED77E, size: 0x8, addend: 0x0, symName: _POLShutdownSDK, symObjAddr: 0x16A, symBinAddr: 0xBFBA, symSize: 0x4B }
+  - { offset: 0xED7BA, size: 0x8, addend: 0x0, symName: '-[POLPolling init]', symObjAddr: 0x1B5, symBinAddr: 0xC005, symSize: 0xB6 }
+  - { offset: 0xED851, size: 0x8, addend: 0x0, symName: '-[POLPolling customerID]', symObjAddr: 0x26B, symBinAddr: 0xC0BB, symSize: 0xE }
+  - { offset: 0xED8BA, size: 0x8, addend: 0x0, symName: '-[POLPolling setCustomerID:]', symObjAddr: 0x279, symBinAddr: 0xC0C9, symSize: 0x9C }
+  - { offset: 0xED9CB, size: 0x8, addend: 0x0, symName: _POLSetSDKInitialized, symObjAddr: 0x315, symBinAddr: 0xC165, symSize: 0xD }
+  - { offset: 0xED9E8, size: 0x8, addend: 0x0, symName: '-[POLPolling apiKey]', symObjAddr: 0x322, symBinAddr: 0xC172, symSize: 0xE }
+  - { offset: 0xEDA1F, size: 0x8, addend: 0x0, symName: '-[POLPolling setApiKey:]', symObjAddr: 0x330, symBinAddr: 0xC180, symSize: 0x9D }
+  - { offset: 0xEDB77, size: 0x8, addend: 0x0, symName: '___21+[POLPolling polling]_block_invoke', symObjAddr: 0x3FD, symBinAddr: 0xC24D, symSize: 0x3D }
+  - { offset: 0xEDC00, size: 0x8, addend: 0x0, symName: _POLIsSDKDisabled, symObjAddr: 0x7DA, symBinAddr: 0xC62A, symSize: 0x1C }
+  - { offset: 0xEDC14, size: 0x8, addend: 0x0, symName: _POLIsSDKShutdown, symObjAddr: 0x7F6, symBinAddr: 0xC646, symSize: 0xD }
+  - { offset: 0xEDC2F, size: 0x8, addend: 0x0, symName: '-[POLPolling dealloc]', symObjAddr: 0x161F, symBinAddr: 0xD46F, symSize: 0x3E }
+  - { offset: 0xEDC77, size: 0x8, addend: 0x0, symName: '-[POLPolling beginSurveyChecks]', symObjAddr: 0x165D, symBinAddr: 0xD4AD, symSize: 0x75 }
+  - { offset: 0xEDCCE, size: 0x8, addend: 0x0, symName: '-[POLPolling stopSurveyChecks]', symObjAddr: 0x16D2, symBinAddr: 0xD522, symSize: 0x32 }
+  - { offset: 0xEDD19, size: 0x8, addend: 0x0, symName: '-[POLPolling performRemoteSurveyChecks]', symObjAddr: 0x1704, symBinAddr: 0xD554, symSize: 0x56 }
+  - { offset: 0xEDD79, size: 0x8, addend: 0x0, symName: '-[POLPolling getSurveyDetailsForTriggeredSurvey:]', symObjAddr: 0x175A, symBinAddr: 0xD5AA, symSize: 0xA0 }
+  - { offset: 0xEDE30, size: 0x8, addend: 0x0, symName: '-[POLPolling postponeSurvey:]', symObjAddr: 0x17FA, symBinAddr: 0xD64A, symSize: 0x16 }
+  - { offset: 0xEDE86, size: 0x8, addend: 0x0, symName: '-[POLPolling shutdownSDK]', symObjAddr: 0x1810, symBinAddr: 0xD660, symSize: 0x16 }
+  - { offset: 0xEDEC5, size: 0x8, addend: 0x0, symName: '-[POLPolling networkSessionDidFetchAvailableSurveys:]', symObjAddr: 0x1826, symBinAddr: 0xD676, symSize: 0xC8 }
+  - { offset: 0xEDF8B, size: 0x8, addend: 0x0, symName: '-[POLPolling networkSessionDidUpdateTriggeredSurveys:]', symObjAddr: 0x18EE, symBinAddr: 0xD73E, symSize: 0x16 }
+  - { offset: 0xEDFE3, size: 0x8, addend: 0x0, symName: '-[POLPolling networkSessionDidFetchSurvey:]', symObjAddr: 0x1904, symBinAddr: 0xD754, symSize: 0x45 }
+  - { offset: 0xEE040, size: 0x8, addend: 0x0, symName: '-[POLPolling networkSessionDidCompleteSurvey:]', symObjAddr: 0x1949, symBinAddr: 0xD799, symSize: 0x1AA }
+  - { offset: 0xEE1C2, size: 0x8, addend: 0x0, symName: '-[POLPolling networkSessionDidFailWithError:]', symObjAddr: 0x1AF3, symBinAddr: 0xD943, symSize: 0x185 }
+  - { offset: 0xEE311, size: 0x8, addend: 0x0, symName: '-[POLPolling visibleViewController]', symObjAddr: 0x1C78, symBinAddr: 0xDAC8, symSize: 0x30D }
+  - { offset: 0xEE53C, size: 0x8, addend: 0x0, symName: '-[POLPolling presentSurveyInternal:]', symObjAddr: 0x1F85, symBinAddr: 0xDDD5, symSize: 0x45 }
+  - { offset: 0xEE5B5, size: 0x8, addend: 0x0, symName: '-[POLPolling presentEmbed]', symObjAddr: 0x1FCA, symBinAddr: 0xDE1A, symSize: 0x5C }
+  - { offset: 0xEE614, size: 0x8, addend: 0x0, symName: '-[POLPolling presentSurvey:]', symObjAddr: 0x2026, symBinAddr: 0xDE76, symSize: 0x18D }
+  - { offset: 0xEE77A, size: 0x8, addend: 0x0, symName: '-[POLPolling presentCompatibleSurvey:]', symObjAddr: 0x21B3, symBinAddr: 0xE003, symSize: 0x10E }
+  - { offset: 0xEE896, size: 0x8, addend: 0x0, symName: '-[POLPolling animationControllerForPresentedController:presentingController:sourceController:]', symObjAddr: 0x22C1, symBinAddr: 0xE111, symSize: 0xC6 }
+  - { offset: 0xEE99D, size: 0x8, addend: 0x0, symName: '-[POLPolling presentationControllerForPresentedViewController:presentingViewController:sourceViewController:]', symObjAddr: 0x2387, symBinAddr: 0xE1D7, symSize: 0x8 }
+  - { offset: 0xEE9F8, size: 0x8, addend: 0x0, symName: '-[POLPolling animateAlongsideTransition:completion:]', symObjAddr: 0x238F, symBinAddr: 0xE1DF, symSize: 0x8 }
+  - { offset: 0xEEA46, size: 0x8, addend: 0x0, symName: '-[POLPolling surveyViewControllerDidOpen:]', symObjAddr: 0x2397, symBinAddr: 0xE1E7, symSize: 0x50 }
+  - { offset: 0xEEAB7, size: 0x8, addend: 0x0, symName: '-[POLPolling surveyViewControllerDidDismiss:]', symObjAddr: 0x23E7, symBinAddr: 0xE237, symSize: 0x6B }
+  - { offset: 0xEEB62, size: 0x8, addend: 0x0, symName: '-[POLPolling delegate]', symObjAddr: 0x2640, symBinAddr: 0xE490, symSize: 0x16 }
+  - { offset: 0xEEB99, size: 0x8, addend: 0x0, symName: '-[POLPolling setDelegate:]', symObjAddr: 0x2656, symBinAddr: 0xE4A6, symSize: 0x11 }
+  - { offset: 0xEEBDA, size: 0x8, addend: 0x0, symName: '-[POLPolling viewType]', symObjAddr: 0x2667, symBinAddr: 0xE4B7, symSize: 0xA }
+  - { offset: 0xEEC0F, size: 0x8, addend: 0x0, symName: '-[POLPolling setViewType:]', symObjAddr: 0x2671, symBinAddr: 0xE4C1, symSize: 0xA }
+  - { offset: 0xEEC4C, size: 0x8, addend: 0x0, symName: '-[POLPolling disableCheckingForAvailableSurveys]', symObjAddr: 0x267B, symBinAddr: 0xE4CB, symSize: 0xA }
+  - { offset: 0xEEC81, size: 0x8, addend: 0x0, symName: '-[POLPolling setDisableCheckingForAvailableSurveys:]', symObjAddr: 0x2685, symBinAddr: 0xE4D5, symSize: 0x9 }
+  - { offset: 0xEECBE, size: 0x8, addend: 0x0, symName: '-[POLPolling isSurveyVisible]', symObjAddr: 0x268E, symBinAddr: 0xE4DE, symSize: 0xA }
+  - { offset: 0xEECF3, size: 0x8, addend: 0x0, symName: '-[POLPolling openedSurveys]', symObjAddr: 0x2698, symBinAddr: 0xE4E8, symSize: 0x14 }
+  - { offset: 0xEED2A, size: 0x8, addend: 0x0, symName: '-[POLPolling setOpenedSurveys:]', symObjAddr: 0x26AC, symBinAddr: 0xE4FC, symSize: 0xF }
+  - { offset: 0xEED69, size: 0x8, addend: 0x0, symName: '-[POLPolling .cxx_destruct]', symObjAddr: 0x26BB, symBinAddr: 0xE50B, symSize: 0x94 }
+  - { offset: 0xEED9C, size: 0x8, addend: 0x0, symName: _POLIsSDKInitialized, symObjAddr: 0x274F, symBinAddr: 0xE59F, symSize: 0xD }
+  - { offset: 0xEEFC7, size: 0x8, addend: 0x0, symName: '-[POLStorage init]', symObjAddr: 0x0, symBinAddr: 0xE5AC, symSize: 0x123 }
+  - { offset: 0xEEFE1, size: 0x8, addend: 0x0, symName: _POLStorageFilename, symObjAddr: 0x1298, symBinAddr: 0x162D8, symSize: 0x0 }
+  - { offset: 0xEF001, size: 0x8, addend: 0x0, symName: _POLStorageTriggeredSurveysKey, symObjAddr: 0x12A0, symBinAddr: 0x162E0, symSize: 0x0 }
+  - { offset: 0xEF017, size: 0x8, addend: 0x0, symName: _POLStorageCompletedSurveysKey, symObjAddr: 0x12A8, symBinAddr: 0x162E8, symSize: 0x0 }
+  - { offset: 0xEF021, size: 0x8, addend: 0x0, symName: '-[POLStorage init]', symObjAddr: 0x0, symBinAddr: 0xE5AC, symSize: 0x123 }
+  - { offset: 0xEF1CB, size: 0x8, addend: 0x0, symName: '+[POLStorage storage]', symObjAddr: 0x123, symBinAddr: 0xE6CF, symSize: 0x30 }
+  - { offset: 0xEF1F5, size: 0x8, addend: 0x0, symName: _storage.storage, symObjAddr: 0x71D8, symBinAddr: 0x1E6F0, symSize: 0x0 }
+  - { offset: 0xEF20B, size: 0x8, addend: 0x0, symName: _storage.onceToken, symObjAddr: 0x71E0, symBinAddr: 0x1E6F8, symSize: 0x0 }
+  - { offset: 0xEF2A8, size: 0x8, addend: 0x0, symName: '-[POLStorage storageURL]', symObjAddr: 0x178, symBinAddr: 0xE724, symSize: 0x30 }
+  - { offset: 0xEF2D2, size: 0x8, addend: 0x0, symName: _storageURL.storageURL, symObjAddr: 0x71E8, symBinAddr: 0x1E700, symSize: 0x0 }
+  - { offset: 0xEF2E8, size: 0x8, addend: 0x0, symName: _storageURL.onceToken, symObjAddr: 0x71F0, symBinAddr: 0x1E708, symSize: 0x0 }
+  - { offset: 0xEF322, size: 0x8, addend: 0x0, symName: '___24-[POLStorage storageURL]_block_invoke', symObjAddr: 0x1A8, symBinAddr: 0xE754, symSize: 0x277 }
+  - { offset: 0xEF5A2, size: 0x8, addend: 0x0, symName: '-[POLStorage write]', symObjAddr: 0x4B8, symBinAddr: 0xEA64, symSize: 0x22F }
+  - { offset: 0xEF907, size: 0x8, addend: 0x0, symName: '___21+[POLStorage storage]_block_invoke', symObjAddr: 0x153, symBinAddr: 0xE6FF, symSize: 0x25 }
+  - { offset: 0xEF93A, size: 0x8, addend: 0x0, symName: '-[POLStorage objectForKeyedSubscript:]', symObjAddr: 0x41F, symBinAddr: 0xE9CB, symSize: 0x19 }
+  - { offset: 0xEF979, size: 0x8, addend: 0x0, symName: '-[POLStorage setObject:forKeyedSubscript:]', symObjAddr: 0x438, symBinAddr: 0xE9E4, symSize: 0x6 }
+  - { offset: 0xEF9C0, size: 0x8, addend: 0x0, symName: '-[POLStorage read]', symObjAddr: 0x43E, symBinAddr: 0xE9EA, symSize: 0x7A }
+  - { offset: 0xEFA61, size: 0x8, addend: 0x0, symName: '-[POLStorage triggeredSurveys]', symObjAddr: 0x6E7, symBinAddr: 0xEC93, symSize: 0x1F3 }
+  - { offset: 0xEFB92, size: 0x8, addend: 0x0, symName: '-[POLStorage setTriggeredSurveys:]', symObjAddr: 0x8DA, symBinAddr: 0xEE86, symSize: 0x1DA }
+  - { offset: 0xEFCF8, size: 0x8, addend: 0x0, symName: '-[POLStorage removeTriggeredSurvey:]', symObjAddr: 0xAB4, symBinAddr: 0xF060, symSize: 0x101 }
+  - { offset: 0xEFE49, size: 0x8, addend: 0x0, symName: '-[POLStorage modifiedTriggeredSurvey:]', symObjAddr: 0xBB5, symBinAddr: 0xF161, symSize: 0xA6 }
+  - { offset: 0xEFF23, size: 0x8, addend: 0x0, symName: '-[POLStorage completedSurveys]', symObjAddr: 0xC5B, symBinAddr: 0xF207, symSize: 0x1F3 }
+  - { offset: 0xF0054, size: 0x8, addend: 0x0, symName: '-[POLStorage setCompletedSurveys:]', symObjAddr: 0xE4E, symBinAddr: 0xF3FA, symSize: 0x1DA }
+  - { offset: 0xF01BA, size: 0x8, addend: 0x0, symName: '-[POLStorage alreadyCompleted:]', symObjAddr: 0x1028, symBinAddr: 0xF5D4, symSize: 0x6F }
+  - { offset: 0xF025E, size: 0x8, addend: 0x0, symName: '-[POLStorage addCompletedSurvey:]', symObjAddr: 0x1097, symBinAddr: 0xF643, symSize: 0x96 }
+  - { offset: 0xF031D, size: 0x8, addend: 0x0, symName: '-[POLStorage .cxx_destruct]', symObjAddr: 0x112D, symBinAddr: 0xF6D9, symSize: 0x10 }
+  - { offset: 0xF0651, size: 0x8, addend: 0x0, symName: '-[POLPresentationController frameOfPresentedViewInContainerView]', symObjAddr: 0x0, symBinAddr: 0xF6E9, symSize: 0xA0 }
+  - { offset: 0xF0670, size: 0x8, addend: 0x0, symName: '-[POLPresentationController frameOfPresentedViewInContainerView]', symObjAddr: 0x0, symBinAddr: 0xF6E9, symSize: 0xA0 }
+  - { offset: 0xF075B, size: 0x8, addend: 0x0, symName: '-[POLModernSurveyViewController initWithSurvey:]', symObjAddr: 0x0, symBinAddr: 0xF789, symSize: 0x7F }
+  - { offset: 0xF08E1, size: 0x8, addend: 0x0, symName: '-[POLModernSurveyViewController initWithSurvey:]', symObjAddr: 0x0, symBinAddr: 0xF789, symSize: 0x7F }
+  - { offset: 0xF0994, size: 0x8, addend: 0x0, symName: '-[POLModernSurveyViewController loadView]', symObjAddr: 0x7F, symBinAddr: 0xF808, symSize: 0x124 }
+  - { offset: 0xF0ABE, size: 0x8, addend: 0x0, symName: '-[POLModernSurveyViewController viewDidLoad]', symObjAddr: 0x1A3, symBinAddr: 0xF92C, symSize: 0x41 }
+  - { offset: 0xF0B73, size: 0x8, addend: 0x0, symName: '-[POLSurveyViewController viewDidLoad]', symObjAddr: 0x0, symBinAddr: 0xF96D, symSize: 0x2F }
+  - { offset: 0xF0B81, size: 0x8, addend: 0x0, symName: '-[POLSurveyViewController loadWebRequest]', symObjAddr: 0x184, symBinAddr: 0xFAF1, symSize: 0x18C }
+  - { offset: 0xF0F39, size: 0x8, addend: 0x0, symName: '-[POLSurveyViewController viewDidLoad]', symObjAddr: 0x0, symBinAddr: 0xF96D, symSize: 0x2F }
+  - { offset: 0xF0F6C, size: 0x8, addend: 0x0, symName: '-[POLSurveyViewController userScriptPreventTextInputZoom]', symObjAddr: 0x2F, symBinAddr: 0xF99C, symSize: 0x3E }
+  - { offset: 0xF0FB8, size: 0x8, addend: 0x0, symName: '-[POLSurveyViewController webViewConfiguration]', symObjAddr: 0x6D, symBinAddr: 0xF9DA, symSize: 0x117 }
+  - { offset: 0xF1155, size: 0x8, addend: 0x0, symName: '-[POLSurveyViewController didReceiveMemoryWarning]', symObjAddr: 0x310, symBinAddr: 0xFC7D, symSize: 0xE1 }
+  - { offset: 0xF1224, size: 0x8, addend: 0x0, symName: '___50-[POLSurveyViewController didReceiveMemoryWarning]_block_invoke', symObjAddr: 0x3F1, symBinAddr: 0xFD5E, symSize: 0x18A }
+  - { offset: 0xF1336, size: 0x8, addend: 0x0, symName: '-[POLSurveyViewController webViewDidClose:]', symObjAddr: 0x599, symBinAddr: 0xFEE8, symSize: 0x6 }
+  - { offset: 0xF1371, size: 0x8, addend: 0x0, symName: '-[POLSurveyViewController webView:didFailNavigation:withError:]', symObjAddr: 0x59F, symBinAddr: 0xFEEE, symSize: 0x51 }
+  - { offset: 0xF13EA, size: 0x8, addend: 0x0, symName: '___63-[POLSurveyViewController webView:didFailNavigation:withError:]_block_invoke', symObjAddr: 0x5F0, symBinAddr: 0xFF3F, symSize: 0x18A }
+  - { offset: 0xF14FC, size: 0x8, addend: 0x0, symName: '-[POLSurveyViewController webViewWebContentProcessDidTerminate:]', symObjAddr: 0x77A, symBinAddr: 0x100C9, symSize: 0xE1 }
+  - { offset: 0xF15CF, size: 0x8, addend: 0x0, symName: '___64-[POLSurveyViewController webViewWebContentProcessDidTerminate:]_block_invoke', symObjAddr: 0x85B, symBinAddr: 0x101AA, symSize: 0x18A }
+  - { offset: 0xF16E1, size: 0x8, addend: 0x0, symName: '-[POLSurveyViewController survey]', symObjAddr: 0x9E5, symBinAddr: 0x10334, symSize: 0x16 }
+  - { offset: 0xF1718, size: 0x8, addend: 0x0, symName: '-[POLSurveyViewController setSurvey:]', symObjAddr: 0x9FB, symBinAddr: 0x1034A, symSize: 0x11 }
+  - { offset: 0xF1757, size: 0x8, addend: 0x0, symName: '-[POLSurveyViewController delegate]', symObjAddr: 0xA0C, symBinAddr: 0x1035B, symSize: 0x19 }
+  - { offset: 0xF178E, size: 0x8, addend: 0x0, symName: '-[POLSurveyViewController setDelegate:]', symObjAddr: 0xA25, symBinAddr: 0x10374, symSize: 0x14 }
+  - { offset: 0xF17CF, size: 0x8, addend: 0x0, symName: '-[POLSurveyViewController webView]', symObjAddr: 0xA39, symBinAddr: 0x10388, symSize: 0x16 }
+  - { offset: 0xF1806, size: 0x8, addend: 0x0, symName: '-[POLSurveyViewController setWebView:]', symObjAddr: 0xA4F, symBinAddr: 0x1039E, symSize: 0x11 }
+  - { offset: 0xF1845, size: 0x8, addend: 0x0, symName: '-[POLSurveyViewController .cxx_destruct]', symObjAddr: 0xA60, symBinAddr: 0x103AF, symSize: 0x51 }
+  - { offset: 0xF1A87, size: 0x8, addend: 0x0, symName: '+[NSURLRequest(POLURLRequestAdditions) GETURLRequest:]', symObjAddr: 0x0, symBinAddr: 0x10400, symSize: 0x5C }
+  - { offset: 0xF1AA1, size: 0x8, addend: 0x0, symName: _POLHTTPMethodGET, symObjAddr: 0x108, symBinAddr: 0x16330, symSize: 0x0 }
+  - { offset: 0xF1AC1, size: 0x8, addend: 0x0, symName: _POLHTTPMethodPOST, symObjAddr: 0x110, symBinAddr: 0x16338, symSize: 0x0 }
+  - { offset: 0xF1ACB, size: 0x8, addend: 0x0, symName: '+[NSURLRequest(POLURLRequestAdditions) GETURLRequest:]', symObjAddr: 0x0, symBinAddr: 0x10400, symSize: 0x5C }
+  - { offset: 0xF1B50, size: 0x8, addend: 0x0, symName: '+[NSURLRequest(POLURLRequestAdditions) POSTURLRequest:]', symObjAddr: 0x5C, symBinAddr: 0x1045C, symSize: 0x5C }
+  - { offset: 0xF1C3D, size: 0x8, addend: 0x0, symName: _POLLogDefault, symObjAddr: 0x0, symBinAddr: 0x104B8, symSize: 0x30 }
+  - { offset: 0xF1C65, size: 0x8, addend: 0x0, symName: _POLLogPrefix, symObjAddr: 0xE0, symBinAddr: 0x16340, symSize: 0x0 }
+  - { offset: 0xF1C8A, size: 0x8, addend: 0x0, symName: _POLLogSubsystemNameSDK, symObjAddr: 0xE8, symBinAddr: 0x16348, symSize: 0x0 }
+  - { offset: 0xF1CA0, size: 0x8, addend: 0x0, symName: _POLLogCategoryNameDefault, symObjAddr: 0xF0, symBinAddr: 0x16350, symSize: 0x0 }
+  - { offset: 0xF1CB6, size: 0x8, addend: 0x0, symName: _POLLogLevelLabelNone, symObjAddr: 0xF8, symBinAddr: 0x16358, symSize: 0x0 }
+  - { offset: 0xF1CCC, size: 0x8, addend: 0x0, symName: _POLLogLevelLabelError, symObjAddr: 0x100, symBinAddr: 0x16360, symSize: 0x0 }
+  - { offset: 0xF1CE2, size: 0x8, addend: 0x0, symName: _POLLogLevelLabelWarn, symObjAddr: 0x108, symBinAddr: 0x16368, symSize: 0x0 }
+  - { offset: 0xF1CF8, size: 0x8, addend: 0x0, symName: _POLLogLevelLabelInfo, symObjAddr: 0x110, symBinAddr: 0x16370, symSize: 0x0 }
+  - { offset: 0xF1D0E, size: 0x8, addend: 0x0, symName: _POLLogLevelLabelTrace, symObjAddr: 0x118, symBinAddr: 0x16378, symSize: 0x0 }
+  - { offset: 0xF1D18, size: 0x8, addend: 0x0, symName: _POLLogDefault, symObjAddr: 0x0, symBinAddr: 0x104B8, symSize: 0x30 }
+  - { offset: 0xF1D3E, size: 0x8, addend: 0x0, symName: _POLLogDefault.log, symObjAddr: 0x1DE8, symBinAddr: 0x1E710, symSize: 0x0 }
+  - { offset: 0xF1D54, size: 0x8, addend: 0x0, symName: _POLLogDefault.onceToken, symObjAddr: 0x1DF0, symBinAddr: 0x1E718, symSize: 0x0 }
+  - { offset: 0xF1D8D, size: 0x8, addend: 0x0, symName: _POLLogLevelLabels, symObjAddr: 0x160, symBinAddr: 0x1E6A0, symSize: 0x0 }
+  - { offset: 0xF1DAF, size: 0x8, addend: 0x0, symName: _POLLogOSLogTypes, symObjAddr: 0x188, symBinAddr: 0x1E6C8, symSize: 0x0 }
+  - { offset: 0xF1E3F, size: 0x8, addend: 0x0, symName: ___POLLogDefault_block_invoke, symObjAddr: 0x30, symBinAddr: 0x104E8, symSize: 0x2C }
+  - { offset: 0xF1E97, size: 0x8, addend: 0x0, symName: _POLLogLevelLabel, symObjAddr: 0x5C, symBinAddr: 0x10514, symSize: 0x1F }
+  - { offset: 0xF1EC0, size: 0x8, addend: 0x0, symName: _POLLogLevelToOSLogType, symObjAddr: 0x7B, symBinAddr: 0x10533, symSize: 0x1D }
+  - { offset: 0xF1FAA, size: 0x8, addend: 0x0, symName: _POLUserScriptPreventTextInputZoomSource, symObjAddr: 0x210, symBinAddr: 0x163A0, symSize: 0x0 }
+...
