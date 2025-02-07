@@ -1,14 +1,11 @@
 # Polling.com Unity SDK Wrapper
 
-> [!WARNING]  
-> This SDK is currently available only for Android usage (iOS is currently being developed).
-
 > [!WARNING] 
 > You can't test it directly in Unity Editor as it is native Android. In order to test it, you have to build your project and run it into a mobile device.
 
 ## Introduction
 
-Polling.com Unity SDK Wrapper is a C# wrapper for the [Poling.com Java SDK](https://github.com/PollingInc/polling-sdk)
+Polling.com Unity SDK Wrapper is a C# wrapper for the [Poling.com Java SDK](https://github.com/PollingInc/polling-sdk) and [Polling.com iOS SDK](https://github.com/PollingInc/polling-sdk-ios)
 
 This SDK allows you to send events, log sessions and purchases, display embedded survey pages or show a specific survey seamlessly within your Unity application.
 
@@ -35,6 +32,8 @@ There is also a project example you can find, which is our [Clicker Game example
 1. For Unity's Android implementation, you should explore the documetation in the [Java SDK](https://github.com/PollingInc/polling-sdk/blob/master/README.md) as the C# wrapper mirrors it.
    You will not be interacting with Java code directly, so no need to panic.
 
+   For Unity's iOS implementation, you should follow the same structure that will be presented below. You also can check the documentation available in the [iOS SDK](https://github.com/PollingInc/polling-sdk-ios)
+
    All the concepts about each of the items listed below are described there, so check it out before proceeding or in case you don't understand any of the classes/objects listed below.
    
 
@@ -43,7 +42,7 @@ There is also a project example you can find, which is our [Clicker Game example
    (Before starting this, make sure your handler includes `using Polling;`
 
 #### 2.1 RequestIdentification
-This is actually unaltered, it's the same as Java syntax:
+This is actually unaltered, it's the same as Java syntax. For iOS, you use the same functions as seen:
 ```C#
 RequestIdentification requestIdentification = new RequestIdentification(customerId, apiKey);
 ```
@@ -80,7 +79,8 @@ CallbackHandler callbackHandler = new CallbackHandler(this.gameObject, OnSuccess
     }
 ```
 #### 2.3 SdkPayload
-For this wrapper, in comparison to Java, you don't need to reference any Activity as Unity is contained into an Activity:
+For this wrapper, in comparison to Java, you don't need to reference any Activity as Unity is contained into an Activity.
+For iOS, you also just provide the required parameters:
 ```C#
 SdkPayload sdkPayload = new SdkPayload(request, callbacks, false);
 ```
@@ -96,6 +96,7 @@ Again, it's recommended to keep `polling` variable in a global scope of your cla
 ---
 #### 2.5 View Types
 For Android, the view types for the surveys are the same as Java as it is actually a Java WebView being rendered here.
+For iOS, the wrappers also deal with it..
 What changes here is the way they are set:
 Only using `polling.SetViewType(ViewType viewType)`
 
