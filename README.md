@@ -32,7 +32,7 @@ There is also a project example you can find, which is our [Clicker Game example
 1. For Unity's Android implementation, you should explore the documetation in the [Java SDK](https://github.com/PollingInc/polling-sdk/blob/master/README.md) as the C# wrapper mirrors it.
    You will not be interacting with Java code directly, so no need to panic.
 
-   For Unity's iOS implementation, you should follow the same structure that will be presented below. You also can check the documentation available in the [iOS SDK](https://github.com/PollingInc/polling-sdk-ios)
+   For Unity's iOS implementation, you should follow the same structure that will be presented below. You also can check the documentation available in the [iOS SDK](https://pollinginc.github.io/polling-sdk-ios)
 
    All the concepts about each of the items listed below are described there, so check it out before proceeding or in case you don't understand any of the classes/objects listed below.
    
