@@ -16,6 +16,7 @@ namespace Polling
 
     public class Polling : IPolling
     {
+
 #if UNITY_ANDROID
         AndroidJavaObject polling;
 
@@ -24,6 +25,10 @@ namespace Polling
             polling = JavaBridge.Polling();
         }
 
+        public bool IsTargetedPlatformCompatible()
+        {
+            return true;
+        }
 
         public void Initialize(SdkPayload sdkPayload)
         {
@@ -87,6 +92,12 @@ namespace Polling
         }
         */
 #elif UNITY_IOS
+
+        public bool IsTargetedPlatformCompatible()
+        {
+            return true;
+        }
+
         public void Initialize(SdkPayload sdkPayload)
         {
             RequestIdentification req = sdkPayload.requestIdentification;
@@ -149,6 +160,68 @@ namespace Polling
         {
             ObjCBridge.POLUnityPluginShowSurvey(surveyUuid);
         }
+#else
+        public bool IsTargetedPlatformCompatible()
+        {
+            return false;
+        }
+
+        public void Initialize(SdkPayload sdkPayload)
+        {
+            NotImplementedWarning();
+        }
+
+        public void LogEvent(string eventName, string eventValue)
+        {
+            NotImplementedWarning();
+        }
+
+        public void LogEvent(string eventName, int eventValue)
+        {
+            NotImplementedWarning();
+        }
+
+        public void LogPurchase(int integerCents)
+        {
+            NotImplementedWarning();
+        }
+
+        public void LogSession()
+        {
+            NotImplementedWarning();
+        }
+
+        public void SetApiKey(string apiKey)
+        {
+            NotImplementedWarning();
+        }
+
+        public void SetCustomerId(string customerId)
+        {
+            NotImplementedWarning();
+        }
+
+        public void SetViewType(ViewType viewType)
+        {
+            NotImplementedWarning();
+        }
+
+        public void ShowEmbedView()
+        {
+            NotImplementedWarning();
+        }
+
+        public void ShowSurvey(string surveyUuid)
+        {
+            NotImplementedWarning();
+        }
+
 #endif
+
+        public static void NotImplementedWarning()
+        {
+            Debug.LogWarning("Polling SDK is not implemented for the targeted platform.");
+        }
+
     }
 }

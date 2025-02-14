@@ -2,6 +2,7 @@ namespace Polling
 {
     public interface IPolling
     {
+        public bool IsTargetedPlatformCompatible();
         public void Initialize(SdkPayload sdkPayload);
         public void SetCustomerId(string customerId);
         public void SetApiKey(string apiKey);

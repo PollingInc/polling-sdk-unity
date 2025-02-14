@@ -28,6 +28,12 @@ namespace Polling {
             this.callbackHandler = callbackHandler;
             this.disableAvailableSurveysPoll = disableAvailableSurveysPoll;
         }
+#else
+        public SdkPayload(RequestIdentification requestIdentification, CallbackHandler callbackHandler, bool disableAvailableSurveysPoll)
+        {
+            Polling.NotImplementedWarning();
+        }
+
 #endif
     }
 

@@ -29,6 +29,12 @@ namespace Polling {
             this.customerId = _CustomerID = customerId;
             this.apiKey = _APIKey = apiKey;
         }
+#else
+        public RequestIdentification(string customerId, string apiKey)
+        {
+            Polling.NotImplementedWarning();
+        }
+
 #endif
     }
 

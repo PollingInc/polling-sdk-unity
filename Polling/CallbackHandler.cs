@@ -35,6 +35,11 @@ namespace Polling
             this.onReward = onReward;
             this.onSurveyAvailable = onSurveyAvailable;
         }
+#else
+        public CallbackHandler(GameObject target, Action<string> onSuccess, Action<string> onFailure, Action<string> onReward, Action onSurveyAvailable)
+        {
+            Polling.NotImplementedWarning();
+        }
 #endif
 
     }
