@@ -9,7 +9,7 @@ Polling.com Unity SDK Wrapper is a C# wrapper for the [Poling.com Java SDK](http
 
 This SDK allows you to send events, log sessions and purchases, display embedded survey pages or show a specific survey seamlessly within your Unity application.
 
-Polling SDK provides an easy way to integrate polling functionality into your projects. This guide walks you through integrating the `.aar` package and initializing the SDK.
+Polling SDK provides an easy way to integrate polling functionality into your projects. This guide walks you through integrating the Plugins package + wrappers and initializing the SDK.
 
 ---
 
