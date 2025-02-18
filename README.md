@@ -13,6 +13,13 @@ Polling SDK provides an easy way to integrate polling functionality into your An
 
 ---
 
+## Polling setup
+
+Before starting to use the SDK, you should learn about some concepts and necessary setup in order to use our services.
+It is highly recommended that you check out about [Embeds](https://docs.polling.com/embeds), which will be crucial to integrate Polling into your game/app and also assign your [Surveys](https://docs.polling.com/surveys).
+Also worth checking the full documentation at [Polling Docs](https://docs.polling.com/).
+
+
 ## Installation
 
 ### Step 1: Unity package setup
@@ -32,7 +39,8 @@ There is also a project example you can find, which is our [Clicker Game example
 1. For Unity's Android implementation, you should explore the documetation in the [Java SDK](https://github.com/PollingInc/polling-sdk/blob/master/README.md) as the C# wrapper mirrors it.
    You will not be interacting with Java code directly, so no need to panic.
 
-   For Unity's iOS implementation, you should follow the same structure that will be presented below. You also can check the documentation available in the [iOS SDK](https://pollinginc.github.io/polling-sdk-ios)
+   For Unity's iOS implementation, you should follow the same structure that will be presented in this current document you are reading.
+   But if you are interested on learning how the iOS SDK works behind-the-scenes, you can check the documentation available in the [iOS SDK](https://pollinginc.github.io/polling-sdk-ios)
 
    All the concepts about each of the items listed below are described there, so check it out before proceeding or in case you don't understand any of the classes/objects listed below.
    
@@ -42,7 +50,10 @@ There is also a project example you can find, which is our [Clicker Game example
    (Before starting this, make sure your handler includes `using Polling;`
 
 #### 2.1 RequestIdentification
-This is actually unaltered, it's the same as Java syntax. For iOS, you use the same functions as seen:
+Define a request identification by providing a:
+   * **Customer ID:** you should assign an unique value in which you use in your application to identify your users.
+   * **API Key:** : Provided by an Embed you can create through the dashboard. Embeds allow you to embed Polling somewhere and in this case, you will be embedding Polling to Unity. You can find this info into the specific Embed > Integrations.
+Here's how it looks:
 ```C#
 RequestIdentification requestIdentification = new RequestIdentification(customerId, apiKey);
 ```
@@ -137,8 +148,8 @@ public class PollingHandler : MonoBehaviour
 
     void Start()
     {
-        customerId = "unityTest";
-        apiKey = "myApiKey0000000...";
+        customerId = "userTest10"; //some identification to the user, usually an user id, or any unique identifier.
+        apiKey = "myApiKey0000000..."; //found in the Integrations of an Embed you setup at the dashboards, in which you can assign your surveys.
 
         RequestIdentification request = new RequestIdentification(customerId, apiKey);
         CallbackHandler callbacks = new CallbackHandler(this.gameObject, OnSuccess, OnFailure, OnReward, OnSurveyAvailable);
