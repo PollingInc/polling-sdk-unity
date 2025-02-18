@@ -5,7 +5,7 @@
 
 ## Introduction
 
-Polling.com Unity SDK Wrapper is a C# wrapper for the [Poling.com Java SDK](https://github.com/PollingInc/polling-sdk) and [Polling.com iOS SDK](https://github.com/PollingInc/polling-sdk-ios)
+Polling.com Unity SDK Wrapper is a C# wrapper for the [Poling.com Java SDK](https://github.com/PollingInc/polling-sdk-android) and [Polling.com iOS SDK](https://github.com/PollingInc/polling-sdk-ios)
 
 This SDK allows you to send events, log sessions and purchases, display embedded survey pages or show a specific survey seamlessly within your Unity application.
 
@@ -37,7 +37,7 @@ Check **Step 3** for more info.
 There is also a project example you can find, which is our [Clicker Game example](https://github.com/PollingInc/GameconClicker-polling-sdk) to demonstrate how the Polling SDK Unity Wrapper works and it is highly recommended for you to check it out.
 
 ---
-1. For Unity's Android implementation, you should explore the documetation in the [Java SDK](https://github.com/PollingInc/polling-sdk/blob/master/README.md) as the C# wrapper mirrors it.
+1. For Unity's Android implementation, you should explore the documetation in the [Java SDK](https://github.com/PollingInc/polling-sdk-android/blob/master/README.md) as the C# wrapper mirrors it.
    You will not be interacting with Java code directly, so no need to panic.
 
    For Unity's iOS implementation, you should follow the same structure that will be presented in this current document you are reading.
