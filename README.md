@@ -23,7 +23,8 @@ Also worth checking the full documentation at [Polling Docs](https://docs.pollin
 ## Installation
 
 ### Step 1: Unity package setup
-1. Drag and drop the latest [.unitypackage](https://github.com/PollingInc/polling-sdk-unity/releases) in your Unity's Assets directory.
+1. Add this repository through Package Manager by hitting "+" icon and click on "Add package from git URL".
+   Another option is to drag and drop the latest [.unitypackage](https://github.com/PollingInc/polling-sdk-unity/releases) in your Unity's Assets directory.  
 2. Select all files to be imported and them click on `Import`
 
 ---
@@ -33,7 +34,7 @@ Inside Assets/Polling/Example/ you should find a PollingHandler.cs script.
 This is a handler example that you can copy and create your own custom handler by creating a new class based on it with your specific needs and use of codebase from your own project.
 Check **Step 3** for more info.
 
-There is also a project example you can find, which is our [Clicker Game example](https://github.com/PollingInc/GameconClicker-polling-sdk) to demonstrate how the Polling SDK Unity Wrapper works.
+There is also a project example you can find, which is our [Clicker Game example](https://github.com/PollingInc/GameconClicker-polling-sdk) to demonstrate how the Polling SDK Unity Wrapper works and it is highly recommended for you to check it out.
 
 ---
 1. For Unity's Android implementation, you should explore the documetation in the [Java SDK](https://github.com/PollingInc/polling-sdk/blob/master/README.md) as the C# wrapper mirrors it.
