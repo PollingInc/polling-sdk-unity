@@ -1,7 +1,7 @@
 # Polling.com Unity SDK Wrapper
 
 > [!WARNING] 
-> You can't test it directly in Unity Editor as it is native Android. In order to test it, you have to build your project and run it into a mobile device.
+> You can't test it directly in Unity Editor as it is native Android or iOS. In order to test it, you have to build your project and run it into the targeted OS mobile device.
 
 ## Introduction
 
