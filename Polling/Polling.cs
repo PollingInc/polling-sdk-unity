@@ -102,7 +102,7 @@ namespace Polling
         {
             RequestIdentification req = sdkPayload.requestIdentification;
             CallbackHandler cbs = sdkPayload.callbackHandler;
-            bool disableAvailableSurveysPoll = sdkPayload.disableAvailableSurveysPoll;
+            bool disableSurveyPoll = sdkPayload.disableAvailableSurveysPoll;
 
             string targetGameObjectName = cbs.gameObject.name;
             string onSuccessName = cbs.onSuccess.Method.Name;
@@ -113,7 +113,7 @@ namespace Polling
                 targetGameObjectName, onSuccessName, onFailureName,
                 onRewardName, onSurveyAvailableName);
             ObjCBridge.POLUnityPluginInitialize(req._CustomerID, req._APIKey);
-            // TODO: availability check
+            ObjCBridge.POLUnityPluginSetDisableAvailableSurveysPoll(disableSurveyPoll);
         }
 
         public void LogEvent(string eventName, string eventValue)

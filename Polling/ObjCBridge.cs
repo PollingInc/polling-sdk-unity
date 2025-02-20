@@ -36,6 +36,9 @@ namespace Polling
 
         [DllImport ("__Internal")]
         public static extern void POLUnityPluginShowSurvey(string surveyUuid);
+
+        [DllImport ("__Internal")]
+        public static extern void POLUnityPluginSetDisableAvailableSurveysPoll(bool disable);
     }
 #endif
 }

@@ -194,4 +194,9 @@ void POLUnityPluginShowSurvey(char *uuid)
     [POLPolling.polling showSurvey:POLCopyInString(uuid)];
 }
 
+void POLUnityPluginSetDisableAvailableSurveysPoll(bool disable)
+{
+    POLPolling.polling.disableCheckingForAvailableSurveys = (BOOL)disable;
+}
+
 POL_EXTERN_C_END
