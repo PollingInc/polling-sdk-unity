@@ -45,7 +45,7 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2025 Polling.com. All rights reserved.</string>
 	<key>POLSDKVersion</key>
-	<string>Polling v1.0.0:master@16b564e:Release</string>
+	<string>Polling v1.0.0:master@4afc160:Release</string>
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>2</integer>
